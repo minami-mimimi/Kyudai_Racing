@@ -145,11 +145,16 @@ input, select, textarea {
 
 	body {
 		color: #212931;
+		line-height: 1.8;      /* 行間を少し広めにとる（重要！） */
+		letter-spacing: 0.05em; /* 文字の間隔を少しだけ広げる */
 	}
 
 	body, input, select, textarea {
-		font-family: "Merriweather", Georgia, serif;
-		font-weight: 300;
+font-family: 'Noto Sans JP', sans-serif;
+		font-weight: 400;      /* 基本の太さ */
+		line-height: 1.85;     /* 行間を広めに取ると「優しさ・余裕」が出ます */
+		letter-spacing: 0.03em; /* 文字の間隔を微調整してオシャレに */
+		color: #3d3d3d;        /* 真っ黒より少しだけグレーにすると目に優しいです */
 		font-size: 1rem;
 		line-height: 2.375;
 	}
